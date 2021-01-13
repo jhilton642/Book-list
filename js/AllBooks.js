@@ -7,7 +7,7 @@ function getBooks() {
         bookTable.innerHTML = 'Please Enter Something';
         return;
     }
-    let url = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm.value}&key=AIzaSyDk1o-UXnYwqsdpUdIC4RAZIg94eVUKHyA`;
+    let url = `https://www.googleapis.com/books/v1/volumes?q=${searchTerm.value}&key=`;
     console.log(url);
     fetch(url)
         .then(response => response.json())
