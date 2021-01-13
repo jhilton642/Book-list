@@ -1,0 +1,33 @@
+.tablink {
+    background-color: #6f2232;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 17px;
+    width: 16.66%;
+}
+
+.tablink:hover {
+    background-color: #c3073f;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 20px;
+    height: 100%;
+}
+h1 {
+    background-color: #62433f;
+    color: white;
+    padding: 30px;
+    margin: 0px;
+}
+body {
+    background: url("../images/Books.jpg") top / cover no-repeat fixed;
+    color: white;
+    margin: 0px;
+}
